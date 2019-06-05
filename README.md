@@ -1,4 +1,4 @@
-# Project Title
+# iAuCurrency
 
 The iAuCurrency is an ios that shows currency rates against AUD
 
