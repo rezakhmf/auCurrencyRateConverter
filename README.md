@@ -3,8 +3,12 @@
 The iAuCurrency is an ios that shows currency rates against AUD
 
 ### Screenshots
+
+### Portrait
+
 ![Alt text](Screenshots/portrait.png?raw=true "Portrait")
 
+### Portrait
 
 ![Alt text](Screenshots/landscape.png?raw=true "Landscape")
 
