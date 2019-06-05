@@ -2,23 +2,22 @@
 
 The iAuCurrency is an ios that shows currency rates against AUD
 
-## Getting Started
+### Screenshots
+![Alt text](Screenshots/landscape.png?raw=true "Landscape")
+![Alt text](Screenshots/portrait.png?raw=true "Portrait")
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
 
 ### Installing
 
 This project is based on CocoaPod and has MVVM architecture.
 
 All Color are picking randomly on each Cell dequee.
+
+## Tech Stach
+ 
+ * Swift 5
+ * Cocoa Pod
+ * no Storyboard
 
 ## Running the tests
 
@@ -32,8 +31,6 @@ Explain what these tests test and why
 Give an example
 ```
 
-### Screenshots
-![Alt text](Screenshots/first-view.png?raw=true "Frist Page")
 
 
 ## Contributing
