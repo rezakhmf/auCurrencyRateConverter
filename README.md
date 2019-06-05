@@ -18,6 +18,8 @@ Give examples
 
 This project is based on CocoaPod and has MVVM architecture.
 
+All Color are picking randomly on each Cell dequee.
+
 ## Running the tests
 
 All test cases are located in iAuCurrencyTest
@@ -31,7 +33,7 @@ Give an example
 ```
 
 ### Screenshots
-
+![Alt text](Screenshots/first-view.png?raw=true "Frist Page")
 
 
 ## Contributing
