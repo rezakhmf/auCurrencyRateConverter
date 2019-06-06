@@ -5,7 +5,7 @@
         <key>Endpoints</key>
         <dict>
             <key>BaseUrl</key>
-            <string>https://www.westpac.com.au/</string>
+            <string>https://www.westpac.com.nz/</string>
             <key>RatesEndpoint</key>
             <string>bin/getJsonRates.wbc.fx.json</string>
         </dict>

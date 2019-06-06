@@ -24,8 +24,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window?.rootViewController = UINavigationController(rootViewController: CurrencyViewController(collectionViewLayout: layout))
         
-        UINavigationBar.appearance().tintColor = UIColor(named: "purple_currency")
-        
         return true
     }
 

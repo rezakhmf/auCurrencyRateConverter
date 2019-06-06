@@ -25,6 +25,7 @@ All Color are picking randomly on each Cell dequee.
  * Cocoa Pod
  * No Storyboard
  * Different Build flavors
+ * Unit tested
 
 ## Running the tests
 

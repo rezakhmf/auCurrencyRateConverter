@@ -26,7 +26,7 @@ class CurrencyViewController: UICollectionViewController, UICollectionViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.title = "Currencies"
+        navigationItem.title = "Rates Convert(AUD)"
         
         collectionView?.backgroundColor = .white
         let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()

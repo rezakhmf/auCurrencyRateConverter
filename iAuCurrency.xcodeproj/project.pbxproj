@@ -16,7 +16,6 @@
 		7C11D5F222A526F500979837 /* iAuCurrencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11D5F122A526F500979837 /* iAuCurrencyTests.swift */; };
 		7C11D60222A52A8100979837 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11D60122A52A8100979837 /* Product.swift */; };
 		7C11D60622A52F0300979837 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11D60522A52F0300979837 /* NetworkError.swift */; };
-		7C11D60822A53CD600979837 /* APIConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11D60722A53CD600979837 /* APIConfigurationProvider.swift */; };
 		7C11D60A22A53DB600979837 /* AuCurrencyNetworkCallServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11D60922A53DB600979837 /* AuCurrencyNetworkCallServiceProvider.swift */; };
 		7C11D60D22A5419B00979837 /* HTTPRequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11D60C22A5419B00979837 /* HTTPRequestType.swift */; };
 		7C11D60F22A541FC00979837 /* NetworkHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11D60E22A541FC00979837 /* NetworkHelpers.swift */; };
@@ -44,7 +43,6 @@
 		7C11D63922A7CCBC00979837 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11D61A22A629FC00979837 /* BaseCell.swift */; };
 		7C11D63A22A7CCBC00979837 /* AuCurrencyNetworkCallServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11D60922A53DB600979837 /* AuCurrencyNetworkCallServiceProvider.swift */; };
 		7C11D63B22A7CCBC00979837 /* NetworkHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11D60E22A541FC00979837 /* NetworkHelpers.swift */; };
-		7C11D63C22A7CCBC00979837 /* APIConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11D60722A53CD600979837 /* APIConfigurationProvider.swift */; };
 		7C11D63D22A7CCBC00979837 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11D60522A52F0300979837 /* NetworkError.swift */; };
 		7C11D63E22A7CCBC00979837 /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11D61322A61BE800979837 /* CurrencyCell.swift */; };
 		7C11D63F22A7CCBC00979837 /* Color+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11D62A22A7A39B00979837 /* Color+Random.swift */; };
@@ -90,7 +88,6 @@
 		7C11D5F322A526F500979837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C11D60122A52A8100979837 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		7C11D60522A52F0300979837 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
-		7C11D60722A53CD600979837 /* APIConfigurationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfigurationProvider.swift; sourceTree = "<group>"; };
 		7C11D60922A53DB600979837 /* AuCurrencyNetworkCallServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuCurrencyNetworkCallServiceProvider.swift; sourceTree = "<group>"; };
 		7C11D60C22A5419B00979837 /* HTTPRequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestType.swift; sourceTree = "<group>"; };
 		7C11D60E22A541FC00979837 /* NetworkHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelpers.swift; sourceTree = "<group>"; };
@@ -243,7 +240,6 @@
 			children = (
 				7C11D61922A629D600979837 /* Currency */,
 				7C11D60522A52F0300979837 /* NetworkError.swift */,
-				7C11D60722A53CD600979837 /* APIConfigurationProvider.swift */,
 				7C11D60C22A5419B00979837 /* HTTPRequestType.swift */,
 				7C11D60E22A541FC00979837 /* NetworkHelpers.swift */,
 				7C11D61022A54DDD00979837 /* NetworkService.swift */,
@@ -537,7 +533,6 @@
 				7C11D60A22A53DB600979837 /* AuCurrencyNetworkCallServiceProvider.swift in Sources */,
 				7C11D65E22A8A45D00979837 /* Enironment.swift in Sources */,
 				7C11D60F22A541FC00979837 /* NetworkHelpers.swift in Sources */,
-				7C11D60822A53CD600979837 /* APIConfigurationProvider.swift in Sources */,
 				7C11D60622A52F0300979837 /* NetworkError.swift in Sources */,
 				7C11D61422A61BE800979837 /* CurrencyCell.swift in Sources */,
 				7C11D62B22A7A39B00979837 /* Color+Random.swift in Sources */,
@@ -574,7 +569,6 @@
 				7C11D63922A7CCBC00979837 /* BaseCell.swift in Sources */,
 				7C11D63A22A7CCBC00979837 /* AuCurrencyNetworkCallServiceProvider.swift in Sources */,
 				7C11D63B22A7CCBC00979837 /* NetworkHelpers.swift in Sources */,
-				7C11D63C22A7CCBC00979837 /* APIConfigurationProvider.swift in Sources */,
 				7C11D63D22A7CCBC00979837 /* NetworkError.swift in Sources */,
 				7C11D63E22A7CCBC00979837 /* CurrencyCell.swift in Sources */,
 				7C11D63F22A7CCBC00979837 /* Color+Random.swift in Sources */,
@@ -773,7 +767,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.qantas.flighttech.iAuCurrencyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = farahani.consullting.iAuCurrencyTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -795,7 +789,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.qantas.flighttech.iAuCurrencyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = farahani.consullting.iAuCurrencyTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
