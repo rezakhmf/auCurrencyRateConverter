@@ -2,7 +2,7 @@
 //  AuCurrencyNetworkCallService.swift
 //  iAuCurrency
 //
-//  Created by Reza Farahanion 3/6/19.
+//  Created by Reza Farahanion 5/6/19.
 //  
 //
 
@@ -21,22 +21,27 @@ final class AuCurrencyNetworkCallService: AuCurrencyNetworkCallServiceProvider {
     // MARK: - Dependencies
     
     private let networkService: AuCurrencyNetworkService
-    private let apiConfiguration: APIConfigurationProvider
+    let environment: Environment
     
-    public init(networkService: AuCurrencyNetworkService = AuCurrencyNetworkService(), apiConfiguration: APIConfigurationProvider = APIConfigurationProvider(baseUrl: "https://www.westpac.com.au/bin/getJsonRates.wbc.fx.json")) {
+    public init(networkService: AuCurrencyNetworkService = AuCurrencyNetworkService(), environment: Environment = Environment()) {
         self.networkService = networkService
-        self.apiConfiguration = apiConfiguration
+        self.environment = environment
     }
     
     
     public func fetchCurrencyData(completion: @escaping (Result<[Product], NSError>) -> Void) {
         
-        guard let baseUrl = apiConfiguration.baseUrl, !baseUrl.isEmpty else {
-            completion(.failure(NetworkError.apiGatewayConfigurationMissingBaseUrl))
+        guard let baseUrl = environment.baseUrl, !baseUrl.isEmpty else {
+            completion(.failure(NetworkError.apiGatewayConfigurationMissingUrl))
             return
         }
         
-        let url = URL(string: baseUrl)!
+        guard let ratesEndpointUrl = environment.ratesEndpoint, !ratesEndpointUrl.isEmpty else {
+            completion(.failure(NetworkError.apiGatewayConfigurationMissingUrl))
+            return
+        }
+        
+        let url = URL(string: baseUrl + ratesEndpointUrl)!
         
         var request = URLRequest(url: url)
         request.httpMethod = HTTPRequestType.get.httpMethod

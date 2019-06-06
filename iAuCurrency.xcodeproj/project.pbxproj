@@ -55,6 +55,12 @@
 		7C11D64622A7CCBC00979837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C11D5E322A526F500979837 /* Assets.xcassets */; };
 		7C11D64E22A7CE8F00979837 /* currencies-data.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C11D64D22A7CE8F00979837 /* currencies-data.json */; };
 		7C11D65122A7CF4F00979837 /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11D65022A7CF4F00979837 /* TestUtils.swift */; };
+		7C11D65322A8920C00979837 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11D65222A8920C00979837 /* Configuration.swift */; };
+		7C11D65922A8A0FA00979837 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C11D65822A8A0FA00979837 /* Config.plist */; };
+		7C11D65C22A8A1EE00979837 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C11D65A22A8A1EA00979837 /* Config.plist */; };
+		7C11D65E22A8A45D00979837 /* Enironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11D65D22A8A45D00979837 /* Enironment.swift */; };
+		7C11D65F22A8A45D00979837 /* Enironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11D65D22A8A45D00979837 /* Enironment.swift */; };
+		7C11D66022A8A46300979837 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11D65222A8920C00979837 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,9 +106,12 @@
 		7C11D62822A7882700979837 /* Date+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Formatter.swift"; sourceTree = "<group>"; };
 		7C11D62A22A7A39B00979837 /* Color+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Random.swift"; sourceTree = "<group>"; };
 		7C11D64A22A7CCBC00979837 /* iNzCurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iNzCurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C11D64B22A7CCBD00979837 /* iAuCurrency copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iAuCurrency copy-Info.plist"; path = "/Users/qantasdev/Documents/samples/iAuCurrency/iAuCurrency copy-Info.plist"; sourceTree = "<absolute>"; };
 		7C11D64D22A7CE8F00979837 /* currencies-data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "currencies-data.json"; sourceTree = "<group>"; };
 		7C11D65022A7CF4F00979837 /* TestUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUtils.swift; sourceTree = "<group>"; };
+		7C11D65222A8920C00979837 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		7C11D65822A8A0FA00979837 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		7C11D65A22A8A1EA00979837 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		7C11D65D22A8A45D00979837 /* Enironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enironment.swift; sourceTree = "<group>"; };
 		FF090985642AA9C92E1AC472 /* Pods-iAuCurrency.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iAuCurrency.release.xcconfig"; path = "Pods/Target Support Files/Pods-iAuCurrency/Pods-iAuCurrency.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -162,7 +171,6 @@
 				7C11D5DA22A526F400979837 /* Products */,
 				46A433DEB9F1BE022CBEF3ED /* Pods */,
 				3BE264D1EED1D7F895D582AF /* Frameworks */,
-				7C11D64B22A7CCBD00979837 /* iAuCurrency copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,6 +187,7 @@
 		7C11D5DB22A526F400979837 /* iAuCurrency */ = {
 			isa = PBXGroup;
 			children = (
+				7C11D65422A8933B00979837 /* Configuration */,
 				7C11D61222A619F400979837 /* view */,
 				7C11D60322A52B4300979837 /* ViewModel */,
 				7C11D60422A52E9500979837 /* Repository */,
@@ -296,6 +305,33 @@
 			path = "Test Utils";
 			sourceTree = "<group>";
 		};
+		7C11D65422A8933B00979837 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				7C11D65222A8920C00979837 /* Configuration.swift */,
+				7C11D65522A8A0AC00979837 /* AU */,
+				7C11D65622A8A0BD00979837 /* NZ */,
+				7C11D65D22A8A45D00979837 /* Enironment.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		7C11D65522A8A0AC00979837 /* AU */ = {
+			isa = PBXGroup;
+			children = (
+				7C11D65822A8A0FA00979837 /* Config.plist */,
+			);
+			path = AU;
+			sourceTree = "<group>";
+		};
+		7C11D65622A8A0BD00979837 /* NZ */ = {
+			isa = PBXGroup;
+			children = (
+				7C11D65A22A8A1EA00979837 /* Config.plist */,
+			);
+			path = NZ;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -399,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C11D5E722A526F500979837 /* LaunchScreen.storyboard in Resources */,
+				7C11D65922A8A0FA00979837 /* Config.plist in Resources */,
 				7C11D5E422A526F500979837 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +453,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C11D64522A7CCBC00979837 /* LaunchScreen.storyboard in Resources */,
+				7C11D65C22A8A1EE00979837 /* Config.plist in Resources */,
 				7C11D64622A7CCBC00979837 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,12 +528,14 @@
 				7C11D60222A52A8100979837 /* Product.swift in Sources */,
 				7C11D62322A69C4B00979837 /* Parser.swift in Sources */,
 				7C11D61D22A63AA300979837 /* CurrencyViewModel.swift in Sources */,
+				7C11D65322A8920C00979837 /* Configuration.swift in Sources */,
 				7C11D62722A74ABA00979837 /* Parser+Conveniece.swift in Sources */,
 				7C11D5DD22A526F400979837 /* AppDelegate.swift in Sources */,
 				7C11D62522A742D800979837 /* CurrencyProductMapper.swift in Sources */,
 				7C11D60D22A5419B00979837 /* HTTPRequestType.swift in Sources */,
 				7C11D61B22A629FC00979837 /* BaseCell.swift in Sources */,
 				7C11D60A22A53DB600979837 /* AuCurrencyNetworkCallServiceProvider.swift in Sources */,
+				7C11D65E22A8A45D00979837 /* Enironment.swift in Sources */,
 				7C11D60F22A541FC00979837 /* NetworkHelpers.swift in Sources */,
 				7C11D60822A53CD600979837 /* APIConfigurationProvider.swift in Sources */,
 				7C11D60622A52F0300979837 /* NetworkError.swift in Sources */,
@@ -521,12 +561,14 @@
 			files = (
 				7C11D62F22A7CCBC00979837 /* NetworkService.swift in Sources */,
 				7C11D63022A7CCBC00979837 /* UICollectoinView+Register.swift in Sources */,
+				7C11D65F22A8A45D00979837 /* Enironment.swift in Sources */,
 				7C11D63122A7CCBC00979837 /* CurrencyViewController.swift in Sources */,
 				7C11D63222A7CCBC00979837 /* Product.swift in Sources */,
 				7C11D63322A7CCBC00979837 /* Parser.swift in Sources */,
 				7C11D63422A7CCBC00979837 /* CurrencyViewModel.swift in Sources */,
 				7C11D63522A7CCBC00979837 /* Parser+Conveniece.swift in Sources */,
 				7C11D63622A7CCBC00979837 /* AppDelegate.swift in Sources */,
+				7C11D66022A8A46300979837 /* Configuration.swift in Sources */,
 				7C11D63722A7CCBC00979837 /* CurrencyProductMapper.swift in Sources */,
 				7C11D63822A7CCBC00979837 /* HTTPRequestType.swift in Sources */,
 				7C11D63922A7CCBC00979837 /* BaseCell.swift in Sources */,
@@ -768,7 +810,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W4HVNQTX75;
-				INFOPLIST_FILE = "iAuCurrency copy-Info.plist";
+				INFOPLIST_FILE = iAuCurrency/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -787,7 +829,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W4HVNQTX75;
-				INFOPLIST_FILE = "iAuCurrency copy-Info.plist";
+				INFOPLIST_FILE = iAuCurrency/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

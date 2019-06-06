@@ -23,7 +23,8 @@ All Color are picking randomly on each Cell dequee.
  
  * Swift 5
  * Cocoa Pod
- * no Storyboard
+ * No Storyboard
+ * Different Build flavors
 
 ## Running the tests
 

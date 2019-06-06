@@ -2,7 +2,7 @@
 //  AuCurrencyNetworkCall.swift
 //  iAuCurrency
 //
-//  Created by Reza Farahanion 3/6/19.
+//  Created by Reza Farahanion 5/6/19.
 //  
 //
 
@@ -29,7 +29,7 @@ public enum NetworkError: Error {
                                                code: 3,
                                                userInfo: [NSLocalizedDescriptionKey: "Could not convert JSON (aka dictionary) to valid data"])
     
-    public static let apiGatewayConfigurationMissingBaseUrl = NSError(domain: errorDomain,
+    public static let apiGatewayConfigurationMissingUrl = NSError(domain: errorDomain,
                                                                       code: 4,
                                                                       userInfo: [NSLocalizedDescriptionKey: "the baseUrl is not provided"])
     

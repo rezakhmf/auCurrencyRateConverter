@@ -2,8 +2,8 @@
 //  TestUtils.swift
 //  iAuCurrencyTests
 //
-//  Created by Qantas Dev on 5/6/19.
-//  Copyright © 2019 Qantas Airways Flight Technical. All rights reserved.
+//  Created by Reza Farahani on 5/6/19.
+//  Copyright © Farahani Consulting. All rights reserved.
 //
 
 import Foundation
